@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638979431766977346
-    m_Hash: 2641351944
+      ticks: 638979459939894669
+    m_Hash: 287196759
   m_LockFileStatus:
     m_FilePath: D:/unity_projects/Sem_proj/My project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638979432303017322
-    m_Hash: 3539099538
+      ticks: 638979459939904565
+    m_Hash: 3538647997
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -33,8 +33,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 2D
-      type: 
+      category: 
+      type: asset
       description: 2D Animation provides all the necessary tooling and runtime components
         for skeletal animation using Sprites.
       status: 4
@@ -190,10 +190,10 @@ m_PackageAssets:
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
-      - name: com.unity.mathematics
-        version: 1.1.0
       - name: com.unity.2d.sprite
         version: 1.0.0
+      - name: com.unity.mathematics
+        version: 1.1.0
       - name: com.unity.modules.animation
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -228,7 +228,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -332,8 +332,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 2D
-      type: 
+      category: 
+      type: asset
       description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
         Big) file format. The ScriptedImporter is currently targeted for users who
         wants to create multi Sprite character animation using Unity 2D Animation
@@ -439,10 +439,10 @@ m_PackageAssets:
       dependencies:
       - name: com.unity.2d.common
         version: 4.0.3
-      - name: com.unity.2d.animation
-        version: 5.0.9
       - name: com.unity.2d.sprite
         version: 1.0.0
+      - name: com.unity.2d.animation
+        version: 5.0.9
       resolvedDependencies:
       - name: com.unity.2d.common
         version: 4.0.3
@@ -476,7 +476,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -552,8 +552,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: 2D
-      type: 
+      category: 
+      type: asset
       description: SpriteShape Runtime & Editor Package contains the tooling and
         the runtime component that allows you to create very organic looking spline
         based 2D worlds. It comes with intuitive configurator and a highly performant
@@ -667,17 +667,17 @@ m_PackageAssets:
         - 5.1.7
         verified: 5.1.7
       dependencies:
-      - name: com.unity.mathematics
-        version: 1.1.0
-      - name: com.unity.2d.common
-        version: 4.0.3
       - name: com.unity.2d.path
         version: 4.0.2
+      - name: com.unity.2d.common
+        version: 4.0.3
+      - name: com.unity.mathematics
+        version: 1.1.0
       - name: com.unity.modules.physics2d
         version: 1.0.0
       resolvedDependencies:
-      - name: com.unity.mathematics
-        version: 1.1.0
+      - name: com.unity.2d.path
+        version: 4.0.2
       - name: com.unity.2d.common
         version: 4.0.3
       - name: com.unity.2d.sprite
@@ -692,8 +692,8 @@ m_PackageAssets:
         version: 1.0.0
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
-      - name: com.unity.2d.path
-        version: 4.0.2
+      - name: com.unity.mathematics
+        version: 1.1.0
       - name: com.unity.modules.physics2d
         version: 1.0.0
       keywords:
@@ -711,7 +711,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -786,8 +786,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Editor
-      type: 
+      category: 
+      type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
         SCM for Unity (beta), a Plastic SCM subscription is required. Learn more
@@ -924,17 +924,17 @@ m_PackageAssets:
         - 2.1.0-preview.6
         verified: 1.13.5
       dependencies:
-      - name: com.unity.nuget.newtonsoft-json
-        version: 2.0.0
       - name: com.unity.services.core
         version: 1.0.1
-      resolvedDependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
+      resolvedDependencies:
       - name: com.unity.services.core
         version: 1.0.1
       - name: com.unity.modules.unitywebrequest
         version: 1.0.0
+      - name: com.unity.nuget.newtonsoft-json
+        version: 2.0.0
       keywords:
       - backup
       - cloud
@@ -957,7 +957,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -983,7 +983,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: The JetBrains Rider Editor package provides an integration for
         using the JetBrains Rider IDE as a code editor for Unity. It adds support
         for generating .csproj files for code completion and auto-discovery of installations.
@@ -1108,7 +1108,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1134,7 +1134,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio as code editor
         for unity. Adds support for generating csproj files for intellisense purposes,
         auto discovery of installations, etc.
@@ -1216,7 +1216,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1242,7 +1242,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Code editor integration for supporting Visual Studio Code as code
         editor for unity. Adds support for generating csproj files for intellisense
         purposes, auto discovery of installations, etc.
@@ -1289,7 +1289,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1298,7 +1298,7 @@ m_PackageAssets:
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
         revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
         path: 
     - packageId: com.unity.test-framework@1.1.29
@@ -1314,8 +1314,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Unity Test Framework
-      type: 
+      category: 
+      type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
       errors: []
@@ -1426,7 +1426,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1435,7 +1435,7 @@ m_PackageAssets:
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
@@ -1451,8 +1451,8 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Text Rendering
-      type: 
+      category: 
+      type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -1617,7 +1617,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -1643,7 +1643,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: 
+      type: asset
       description: Use Unity Timeline to create cinematic content, game-play sequences,
         audio sequences, and complex particle effects.
       status: 4
@@ -1784,18 +1784,18 @@ m_PackageAssets:
         - 1.8.7
         verified: 1.4.8
       dependencies:
+      - name: com.unity.modules.audio
+        version: 1.0.0
       - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
-      - name: com.unity.modules.audio
-        version: 1.0.0
       - name: com.unity.modules.particlesystem
         version: 1.0.0
       resolvedDependencies:
-      - name: com.unity.modules.director
-        version: 1.0.0
       - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
@@ -1815,7 +1815,7 @@ m_PackageAssets:
         isDefault: 1
         capabilities: 7
       hasRegistry: 1
-      hideInEditor: 1
+      hideInEditor: 0
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
@@ -3686,6 +3686,61 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.services.core@1.0.1
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.1
+      source: 1
+      resolvedPath: D:\unity_projects\Sem_proj\My project\Library\PackageCache\com.unity.services.core@1.0.1
+      assetPath: Packages/com.unity.services.core
+      name: com.unity.services.core
+      displayName: Services Core
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'This package defines common components used by multiple Game
+        Service packages.
+
+        These are standardized and aim to unify the overall
+        experience of working with Game Services packages.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.1
+        compatible:
+        - 1.0.1
+        verified: 1.0.1
+      dependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
+        path: 
     - packageId: com.unity.nuget.newtonsoft-json@2.0.0
       testable: 0
       isDirectDependency: 0
@@ -3742,92 +3797,36 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
         revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
         path: 
-    - packageId: com.unity.services.core@1.0.1
+    - packageId: com.unity.2d.path@4.0.2
       testable: 0
       isDirectDependency: 0
-      version: 1.0.1
+      version: 4.0.2
       source: 1
-      resolvedPath: D:\unity_projects\Sem_proj\My project\Library\PackageCache\com.unity.services.core@1.0.1
-      assetPath: Packages/com.unity.services.core
-      name: com.unity.services.core
-      displayName: Services Core
+      resolvedPath: D:\unity_projects\Sem_proj\My project\Library\PackageCache\com.unity.2d.path@4.0.2
+      assetPath: Packages/com.unity.2d.path
+      name: com.unity.2d.path
+      displayName: 2D Path
       author:
         name: 
         email: 
         url: 
-      category: 
+      category: 2D
       type: 
-      description: 'This package defines common components used by multiple Game
-        Service packages.
-
-        These are standardized and aim to unify the overall
-        experience of working with Game Services packages.'
+      description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
+        splines) in EditorWindows and the SceneView."
       status: 4
       errors: []
       versions:
         all:
-        - 1.0.1
+        - 4.0.2
         compatible:
-        - 1.0.1
-        verified: 1.0.1
-      dependencies:
-      - name: com.unity.modules.unitywebrequest
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.modules.unitywebrequest
-        version: 1.0.0
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 0
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-        revision: 4cd880d4fd5c60597629249bf4f324e4c8d7aa2e
-        path: 
-    - packageId: com.unity.mathematics@1.1.0
-      testable: 0
-      isDirectDependency: 0
-      version: 1.1.0
-      source: 1
-      resolvedPath: D:\unity_projects\Sem_proj\My project\Library\PackageCache\com.unity.mathematics@1.1.0
-      assetPath: Packages/com.unity.mathematics
-      name: com.unity.mathematics
-      displayName: Mathematics
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Unity's C# SIMD math library providing vector types and math functions
-        with a shader like syntax.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.1.0
-        - 1.2.1
-        compatible:
-        - 1.1.0
-        - 1.2.1
-        verified: 1.2.1
+        - 4.0.2
+        verified: 4.0.2
       dependencies: []
       resolvedDependencies: []
       keywords:
-      - unity
+      - 2d
+      - path
       registry:
         id: main
         name: 
@@ -3845,8 +3844,8 @@ m_PackageAssets:
       hasRepository: 1
       repository:
         type: git
-        url: git@github.com:Unity-Technologies/Unity.Mathematics.git
-        revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
+        url: https://github.cds.internal.unity3d.com/unity/2d.git
+        revision: 6f9c488e4d487ead34ee4d516f0a2f4a911a8b25
         path: 
     - packageId: com.unity.2d.common@4.0.3
       testable: 0
@@ -3913,36 +3912,37 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/2d.git
         revision: c97def465b1932276762fc13f4cfee58da99d5e9
         path: 
-    - packageId: com.unity.2d.path@4.0.2
+    - packageId: com.unity.mathematics@1.1.0
       testable: 0
       isDirectDependency: 0
-      version: 4.0.2
+      version: 1.1.0
       source: 1
-      resolvedPath: D:\unity_projects\Sem_proj\My project\Library\PackageCache\com.unity.2d.path@4.0.2
-      assetPath: Packages/com.unity.2d.path
-      name: com.unity.2d.path
-      displayName: 2D Path
+      resolvedPath: D:\unity_projects\Sem_proj\My project\Library\PackageCache\com.unity.mathematics@1.1.0
+      assetPath: Packages/com.unity.mathematics
+      name: com.unity.mathematics
+      displayName: Mathematics
       author:
         name: 
         email: 
         url: 
-      category: 2D
+      category: 
       type: 
-      description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier
-        splines) in EditorWindows and the SceneView."
+      description: Unity's C# SIMD math library providing vector types and math functions
+        with a shader like syntax.
       status: 4
       errors: []
       versions:
         all:
-        - 4.0.2
+        - 1.1.0
+        - 1.2.1
         compatible:
-        - 4.0.2
-        verified: 4.0.2
+        - 1.1.0
+        - 1.2.1
+        verified: 1.2.1
       dependencies: []
       resolvedDependencies: []
       keywords:
-      - 2d
-      - path
+      - unity
       registry:
         id: main
         name: 
@@ -3960,8 +3960,8 @@ m_PackageAssets:
       hasRepository: 1
       repository:
         type: git
-        url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 6f9c488e4d487ead34ee4d516f0a2f4a911a8b25
+        url: git@github.com:Unity-Technologies/Unity.Mathematics.git
+        revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []

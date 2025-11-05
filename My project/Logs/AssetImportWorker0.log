@@ -1,0 +1,338 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.22f1 (e1a7f79fd887) revision 14788599'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19045.6456; Version 2009; 64bit' Language: 'en' Physical Memory: 16239 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Editor\2020.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/unity_projects/Sem_proj/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56631
+Successfully changed project path to: D:/unity_projects/Sem_proj/My project
+D:/unity_projects/Sem_proj/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.22f1 (e1a7f79fd887)
+[Subsystems] Discovering subsystems at path D:/Editor/2020.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity_projects/Sem_proj/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX590 GME (ID=0x6fdf)
+    Vendor:   
+    VRAM:     8135 MB
+    Driver:   31.0.21923.11000
+Initialize mono
+Mono path[0] = 'D:/Editor/2020.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Editor/2020.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Editor/2020.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001233 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.250 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2251ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1329ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (614ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (126ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3153ms)
+		BeginReloadAssembly (390ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (2646ms)
+			LoadAssemblies (327ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (403ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1429ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (49ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (1105ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (65ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2182 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.5 MB.
+System memory in use after: 95.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2616.
+Total: 5.974083 ms (FindLiveObjects: 0.295875 ms CreateObjectMapping: 0.221167 ms MarkObjects: 5.205917 ms  DeleteObjects: 0.201375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16.png
+  artifactKey: Guid(71ca923c4605ab84dbcd2cc120b7a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16.png using Guid(71ca923c4605ab84dbcd2cc120b7a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533ac34d17d28ad48ab51862e53f16f1') in 1.080419 seconds 
+  Import took 1.086664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_0.asset
+  artifactKey: Guid(4a43045138b20d44ea13562ef72d1d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_0.asset using Guid(4a43045138b20d44ea13562ef72d1d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e11fe75138c5df68b883d48bb31c0ab8') in 0.042581 seconds 
+  Import took 0.049639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_38.asset
+  artifactKey: Guid(9b49e833a4db5534baa7dbdf304b88e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_38.asset using Guid(9b49e833a4db5534baa7dbdf304b88e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cc63008f3cfa4e8a447bdcea6476bf') in 0.052647 seconds 
+  Import took 0.066090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_33.asset
+  artifactKey: Guid(ddc28efc87c41a3478ee03752d9087f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_33.asset using Guid(ddc28efc87c41a3478ee03752d9087f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a162ff546d0bbb7e19e035c4875c33') in 0.030310 seconds 
+  Import took 0.057994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_31.asset
+  artifactKey: Guid(e5840a8846085a143906cbad6cb40de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_31.asset using Guid(e5840a8846085a143906cbad6cb40de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73fe9dc6680f672fdcd46edb219ad24') in 0.046760 seconds 
+  Import took 0.053526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_43.asset
+  artifactKey: Guid(d7b7727231bf72a4f9394e14de9ccd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_43.asset using Guid(d7b7727231bf72a4f9394e14de9ccd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90cda459a96a8f68bd7811308ff66960') in 0.031861 seconds 
+  Import took 0.063559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_14.asset
+  artifactKey: Guid(12f73a5cc24c65940adaec7d4b7889bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_14.asset using Guid(12f73a5cc24c65940adaec7d4b7889bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e4562f2f14b750adbe22733f8cf513') in 0.048040 seconds 
+  Import took 0.066006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_47.asset
+  artifactKey: Guid(b21ce8514ac2afd4d813623e06571a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_47.asset using Guid(b21ce8514ac2afd4d813623e06571a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec9cbd4a584527678dbf1ce0d90bc77') in 0.033133 seconds 
+  Import took 0.166364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_5.asset
+  artifactKey: Guid(1d419c50f2b202441b49e542c0445319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_5.asset using Guid(1d419c50f2b202441b49e542c0445319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acfa3c71a554b9e5f48aa66e9f894af0') in 0.231531 seconds 
+  Import took 0.287725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_35.asset
+  artifactKey: Guid(dd0b13def1d71bf459ea415701991227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_35.asset using Guid(dd0b13def1d71bf459ea415701991227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a386525f22f381eeca03de8d41eb1d0e') in 0.444146 seconds 
+  Import took 0.583803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.202889 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_60.asset
+  artifactKey: Guid(5aaf4b54395763a45b408462f1006d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_60.asset using Guid(5aaf4b54395763a45b408462f1006d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200cc57c30c08dbe2d66adcd3e621d45') in 0.020409 seconds 
+  Import took 0.025721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.494336 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_65.asset
+  artifactKey: Guid(df7a6d34f6c03304ea19667a34dea0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_65.asset using Guid(df7a6d34f6c03304ea19667a34dea0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52290bb4e9363a21f4b505dfbaca3a1f') in 0.020065 seconds 
+  Import took 0.024365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.174259 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_13.asset
+  artifactKey: Guid(5eed5e18663473c47be51e9538639e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_13.asset using Guid(5eed5e18663473c47be51e9538639e7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5662aae861ee7ab40d87d0d3e610694') in 0.019648 seconds 
+  Import took 0.025006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.683134 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16.png
+  artifactKey: Guid(71ca923c4605ab84dbcd2cc120b7a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16.png using Guid(71ca923c4605ab84dbcd2cc120b7a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c0b414d072345921c5f2db51f1a2b9') in 0.232941 seconds 
+  Import took 0.237376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.668640 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16.png
+  artifactKey: Guid(71ca923c4605ab84dbcd2cc120b7a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16.png using Guid(71ca923c4605ab84dbcd2cc120b7a056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a979130bfae8785d12aaee0f2f86cf') in 0.230067 seconds 
+  Import took 0.234991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.048724 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.015820 seconds 
+  Import took 0.019417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.606086 seconds.
+  path: Assets/Scenes/tile map.prefab
+  artifactKey: Guid(c237bf703f5399542883215a6ee15c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/tile map.prefab using Guid(c237bf703f5399542883215a6ee15c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01aefffd4fcd94596457e33b11feea74') in 0.187289 seconds 
+  Import took 0.192203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111303 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284dcce134b04d963d64a772e8a51e4') in 0.003560 seconds 
+  Import took 0.008781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.313231 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_24.asset
+  artifactKey: Guid(0766e0ce629ca964dbd71ce0b4734b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_24.asset using Guid(0766e0ce629ca964dbd71ce0b4734b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716db6dd75431c0fc3e440b84f5b4b6a') in 0.025462 seconds 
+  Import took 0.030386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.923785 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_27.asset
+  artifactKey: Guid(331ae7cc762acd3499ca3437a3185d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_27.asset using Guid(331ae7cc762acd3499ca3437a3185d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64989e66823cc7bb2a6f79eba719e33b') in 0.022582 seconds 
+  Import took 0.026755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.677663 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_9.asset
+  artifactKey: Guid(dfbd06554400c2c41b8a5f04ae1613fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_9.asset using Guid(dfbd06554400c2c41b8a5f04ae1613fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272fa23c0248f21707d707dd029a61ab') in 0.024335 seconds 
+  Import took 0.028555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265253 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_4.asset
+  artifactKey: Guid(3cca7f7769ccc194393558afb308a93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_4.asset using Guid(3cca7f7769ccc194393558afb308a93e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c41b4b5e82c22eeb03c2eaffaf11bb') in 0.020986 seconds 
+  Import took 0.025275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.127422 seconds.
+  path: Assets/Scenes/nature-paltformer-tileset-16x16_1.asset
+  artifactKey: Guid(8198c89e6ee42ec46b96913d00d734fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/nature-paltformer-tileset-16x16_1.asset using Guid(8198c89e6ee42ec46b96913d00d734fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20698290064501dd295dbd75f7ae89a1') in 0.021676 seconds 
+  Import took 0.025934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 320.171233 seconds.
+  path: Assets/Scenes/Background.png
+  artifactKey: Guid(ce47ed3d856e1c5448a56e08e969123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Background.png using Guid(ce47ed3d856e1c5448a56e08e969123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34e04c374ec4a90ac3b7a894ae7513e') in 0.034725 seconds 
+  Import took 0.039277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 170.014703 seconds.
+  path: Assets/Scenes/Background.png
+  artifactKey: Guid(ce47ed3d856e1c5448a56e08e969123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Background.png using Guid(ce47ed3d856e1c5448a56e08e969123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce37dedd5bb192714e5549907c0b0ec3') in 0.145265 seconds 
+  Import took 0.149919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.972781 seconds.
+  path: Assets/Scenes/Background.png
+  artifactKey: Guid(ce47ed3d856e1c5448a56e08e969123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Background.png using Guid(ce47ed3d856e1c5448a56e08e969123c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a784e0b8502a0788a2e6d5f47c369a') in 0.040059 seconds 
+  Import took 0.044509 seconds .
+

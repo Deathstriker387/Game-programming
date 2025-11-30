@@ -30,29 +30,32 @@ public class playermovement : MonoBehaviour
     // Update is called once per frame - used for Input
     void Update()
     {
-        // Get input in Update()
-        horizontalInput = Input.GetAxisRaw("Horizontal");
+        if (Time.timeScale != 0)
+        {
+            // Get input in Update()
+            horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        // --- Handle Animation ---
-        if (horizontalInput != 0)
-        {
-            // Set the "Act" parameter to 1 (which is 'Run' in your Animator)
-            animator.SetInteger("Act", (int)PlayerStates.Run);
-        }
-        else
-        {
-            // Set the "Act" parameter to 0 (which should be 'Idle')
-            animator.SetInteger("Act", (int)PlayerStates.Idle);
-        }
+            // --- Handle Animation ---
+            if (horizontalInput != 0)
+            {
+                // Set the "Act" parameter to 1 (which is 'Run' in your Animator)
+                animator.SetInteger("Act", (int)PlayerStates.Run);
+            }
+            else
+            {
+                // Set the "Act" parameter to 0 (which should be 'Idle')
+                animator.SetInteger("Act", (int)PlayerStates.Idle);
+            }
 
-        // --- Handle Sprite Flipping ---
-        if (horizontalInput > 0 && !isFacingRight)
-        {
-            Flip();
-        }
-        else if (horizontalInput < 0 && isFacingRight)
-        {
-            Flip();
+            // --- Handle Sprite Flipping ---
+            if (horizontalInput > 0 && !isFacingRight)
+            {
+                Flip();
+            }
+            else if (horizontalInput < 0 && isFacingRight)
+            {
+                Flip();
+            }
         }
     }
 
